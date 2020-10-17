@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+a{
+    background-color: Transparent;
+    outline: none;
+    border: none;
+    text-decoration:none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-links-left{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.nav-links-right{
+    padding-right: 15px;
+}
+
+.google-icons{
+    width: 82.8;
+    height: 40.33
+}
+
+.about-button{
+    width: 48.97px;
+    height: 14.67px;
+    padding-left:15;
+}
+
+.store-button{
+    width: 31.073px;
+    height: 14.667px;
+    padding-left: 15px;
+}
+
+.gmail-button{
+    width: 33.948px;
+    height: 24px;
+}
+
+.images-button{
+    width: 42.64px;
+    height: 24px;
+    padding-left: 15px;
+}
+
+#icons-button{
+    height: 43.99px;
+}
+
+.google-image-parent{
+    position: relative;
+    width: 100%;
+    height: 19.5%;
+    margin-top: 89px;
+}
+
+.google-image-child{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    height: 92px;
+}
+
+.google-img{
+    text-align: center;
+}
+

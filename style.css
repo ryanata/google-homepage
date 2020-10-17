@@ -26,44 +26,78 @@ a:hover {
     cursor: pointer;
 }
 
+.nav-left{
+    position: relative;
+    top: -4.4px;
+    width: 16.2%; 
+}
+
 .nav-links-left{
+    display: inline-block;
     margin-left: 10px;
     margin-top: 7px;
+    width: 109.05;
+    height: 18.03;
+    align-items: center;
+}
+
+.nav-right{
+    position: relative;
+    top: -12.5px;
+    width: 16.2%; 
 }
 
 .nav-links-right{
-    padding-right: 15px;
+    display: inline-block;
+    margin-top: 7px;
+    margin-right: 0px;
+    width: 109.05;
+    height: 18.03;
+    align-items: center;
 }
 
 .google-icons{
+    position: absolute;
+    text-align: center;
+    bottom: -12.8px;
     width: 82.8;
-    height: 40.33
+    height: 40.33;
 }
 
 .about-button{
     width: 48.97px;
     height: 14.67px;
     padding-left:15;
+    color: #434343;
+    opacity: 0.85;
 }
 
 .store-button{
     width: 31.073px;
     height: 14.667px;
     padding-left: 15px;
+    color: #434343;
+    opacity: 0.85;
 }
 
 .gmail-button{
     width: 33.948px;
     height: 24px;
+    color: #434343;
+    opacity: 0.85;
 }
 
 .images-button{
     width: 42.64px;
     height: 24px;
     padding-left: 15px;
+    color: #434343;
+    opacity: 0.85;
 }
 
 #icons-button{
+    display: inline-block;
+    position: relative;
     height: 43.99px;
 }
 
@@ -71,7 +105,7 @@ a:hover {
     position: relative;
     width: 100%;
     height: 19.5%;
-    margin-top: 89px;
+    margin-top: 68px;
 }
 
 .google-image-child{
@@ -85,4 +119,132 @@ a:hover {
 .google-img{
     text-align: center;
 }
+
+.search-bar-container{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+}
+
+input{
+    border: none;
+    padding: 19px;
+    margin: 10px;
+    height: 45px;
+    width: 45%;
+    align-self: center;
+    justify-self: center;
+    border:1px solid #dfe1e5;
+    border-radius: 30px;
+    outline:none;
+    vertical-align: middle;
+
+}
+
+input[type="text"]:hover{
+    box-shadow: 1px 1px 5px rgb(214, 214, 214);
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    text-align: center;
+}
+
+.search-buttons{
+    padding-top: 10px;
+    text-align: center;
+}
+
+button{
+    border: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.bottom-bar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px;
+    height: 41px;
+    width: 100%;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    font-family: Arial, san-serif;
+}
+
+.bottom-right-footer{
+    width: 50%;
+    height: 100%;
+}
+
+.bottom-left-footer{
+    width: 50%;
+    height: 100%;
+}
+
+.nav-bottom-left{
+    width:80%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+#ad-button{
+    color: #5f6368;
+    padding-left:21px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+#biz-button{
+    color: #5f6368;
+    padding-left:21px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+#how-button{
+    color: #5f6368;
+    padding-left:21px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+#privacy-button{
+    color: #5f6368;
+    padding-left:66%;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+#terms-button{
+    color: #5f6368;
+    padding-left:21px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+#settings-button{
+    color: #5f6368;
+    padding-left:21px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
 
